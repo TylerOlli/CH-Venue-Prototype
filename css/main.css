@@ -27,13 +27,14 @@ body {
 
 #social-media-nav {
 	background-color: white;
-	height: 50px;
+	height: 40px;
 	margin-top: -5px;
 	margin-bottom: -20px;
 }
 
 #social-media-text {
 	text-transform: uppercase;
+	font-size: 12px;
 	color: #de53f3;
 	padding-right: 20px;
 }
@@ -54,6 +55,14 @@ body {
 
 .form-control {
 	background-color: #e5e5e5;
+	font-size: 12px;
+	margin-left: 40px;
+}
+
+i.fa {
+	font-size: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .navbar-nav {
