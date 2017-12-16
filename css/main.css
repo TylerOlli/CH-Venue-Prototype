@@ -8,6 +8,9 @@ body {
 	padding-top: 120px;
 	padding-bottom: 20px;
 	background-color: #e5e5e5;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Merriweather', serif;
+	font-family: 'Oswald', sans-serif;
 }
 
 .navbar-header {
@@ -46,8 +49,13 @@ body {
 .login-button {
 	background-color: #de53f3;
 	color: white;
+	font-size: 12px;
 	text-transform: uppercase;
-	height: 50px;
+	height: 45px;
+	width: 100px;
+	padding-top: 5px;
+	padding-left: 10px;
+	margin-left: 10px;
 	margin-top: -5px;
 	margin-bottom: -15px;
 	border: none;
@@ -57,12 +65,30 @@ body {
 	background-color: #e5e5e5;
 	font-size: 12px;
 	margin-left: 40px;
+	font-family: FontAwesome;
+	border-radius: 50px;
+	height: 25px;
 }
 
-i.fa {
+i.fa-social-media {
 	font-size: 20px;
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+i.fa-login {
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+i.dots {
+	color: #de53f3;
+	font-size: 30px;
+}
+
+i.hamburger {
+	font-size: 32px;
 }
 
 .navbar-nav {
@@ -72,6 +98,8 @@ i.fa {
 .nav-item {
 	margin-top: 10px;
 	padding: 20px;
+	padding-left: 35px;
+	padding-right: 35px;
 }
 
 .nav-link {
@@ -152,11 +180,6 @@ img {
 .concert-info h4 {
     font-style: italic;
 }
-
-
-
-
-
 
 
 
