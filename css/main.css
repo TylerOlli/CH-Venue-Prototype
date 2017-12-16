@@ -5,9 +5,13 @@
    ========================================================================== */
 
 body {
-	padding-top: 100px;
+	padding-top: 120px;
 	padding-bottom: 20px;
 	background-color: #e5e5e5;
+}
+
+.navbar-header {
+	height: 80px;
 }
 
 .social-media-container-outer {
@@ -24,6 +28,8 @@ body {
 #social-media-nav {
 	background-color: white;
 	height: 50px;
+	margin-top: -5px;
+	margin-bottom: -20px;
 }
 
 #social-media-text {
@@ -32,11 +38,30 @@ body {
 	padding-right: 20px;
 }
 
+.login-form {
+	margin-bottom: 7px;
+}
+
+.login-button {
+	background-color: #de53f3;
+	color: white;
+	text-transform: uppercase;
+	height: 50px;
+	margin-top: -5px;
+	margin-bottom: -15px;
+	border: none;
+}
+
+.form-control {
+	background-color: #e5e5e5;
+}
+
 .navbar-nav {
 	float: right;
 }
 
 .nav-item {
+	margin-top: 10px;
 	padding: 20px;
 }
 
@@ -46,6 +71,33 @@ body {
 
 .white-text {
 	color: white;
+}
+
+.brand-container {
+	height: 80px;
+	background-color: #3a3a3a;
+	color: white;
+	position: absolute;
+	top: 25px;
+	padding: 20px;
+}
+
+.navbar-brand {
+	margin-top: -5px;
+}
+
+#first-brand {
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+}
+
+#second-brand {
+	font-size: 20px;
+	padding-left: 5px;
+	color: white;
+	text-transform: uppercase;
+	font-style: italic;
 }
 
 hr {
