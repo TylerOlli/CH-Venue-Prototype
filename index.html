@@ -1,8 +1,5 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+<html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -12,19 +9,31 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
+    
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    	<div class="social-media-container-outer">
+	    	<div class="container social-media-container-inner">
+				<div id="navbar" class="navbar-collapse collapse">
+					<div id="social-media-nav">
+						<form class="navbar-form navbar-right" role="form">
+							<span id="social-media-text">Get Connected</span>
+				            <div class="form-group">
+				              <input type="text" placeholder="SEARCH EVENTS" class="form-control">
+				            </div>
+				            <button type="submit" class="btn btn-success">Login</button>
+				          </form>
+
+					</div>
+				</div>
+		    </div>
+	    </div>
+
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -36,62 +45,99 @@
           <a class="navbar-brand" href="#">CH Venue</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-right" role="form">
-            <div class="form-group">
-              <input type="text" placeholder="SEARCH EVENTS" class="form-control">
-            </div>
-            <button type="submit" class="btn btn-success">Login</button>
-          </form>
+     		<ul class="navbar-nav">
+     			<li class="nav-item">
+                    <a class="nav-link" href="#"><span class="white-text">Tickets</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="white-text">Plan Your Visit</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="white-text">Vip Members</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><span class="white-text">About Us</span></a>
+                </li>
+     	    </ul>
         </div><!--/.navbar-collapse -->
       </div>
     </nav>
 
     <div class="container">
-      <h1>Upcoming Events</h1>
+      <h1>UPCOMING EVENTS</h1>
       <hr>
       <!-- Example row of columns -->
       <div class="row">
         <div class="col-md-4">
-          <img src="img/nicki-minaj.png" width="300px">
-          <h2>Nicki Minaj</h2>
-          <h4>The Pink Print Tour</h4>
+          <img src="img/nicki-minaj.png">
+          <div class="date-info">
+          	<h4>July 25, 2015<span style="float:right;">Friday</span></h4>
+          </div>
+          <div class="concert-info">
+	      	<h2>Nicki Minaj</h2>
+	       	<h4>The Pink Print Tour</h4>
+          </div>
         </div>
         <div class="col-md-4">
-          <img src="img/nick-jonas.png" width="300px">
-          <h2>Nick Jonas</h2>
-          <h4>'Life in Concert' Tour</h4>
+          <img src="img/nick-jonas.png">
+           <div class="date-info">
+          	<h4>July 30, 2015<span style="float:right;">Saturday</span</h4>
+          </div>
+          <div class="concert-info">
+	      	<h2>Nick Jonas</h2>
+	      	<h4>'Life in Concert' Tour</h4>
+          </div>
        </div>
         <div class="col-md-4">
-          <img src="img/taylor-swift.png" width="300px">
-          <h2>Taylor Swift</h2>
-          <h4>The 1989 World Tour</h4>
+          <img src="img/taylor-swift.png">
+           <div class="date-info">
+          	<h4>August 06, 2015<span style="float:right;">Thursday</span</h4>
+          </div>
+          <div class="concert-info">
+	      	<h2>Taylor Swift</h2>
+	      	<h4>The 1989 World Tour</h4>
+          </div>
         </div>
       </div>
 
       <div class="row">
         <div class="col-md-4">
-          <img src="img/sam-smith.png" width="300px">
-          <h2>Sam Smith</h2>
-          <h4>In The Lonely Hour Tour</h4>
+          <img src="img/sam-smith.png">
+           <div class="date-info">
+          	<h4>August 15, 2015<span style="float:right;">Saturday</span</h4>
+          </div>
+          <div class="concert-info">
+	      	<h2>Sam Smith</h2>
+	       	<h4>In The Lonely Hour Tour</h4>
+          </div>
         </div>
         <div class="col-md-4">
-          <img src="img/iggy-azalea.png" width="300px">
-          <h2>Iggy Azalea</h2>
-          <h4>'Great Escape' Tour</h4>
+          <img src="img/iggy-azalea.png">
+          <div class="date-info">
+          	<h4>August 22, 2015<span style="float:right;">Friday</span</h4>
+          </div>
+          <div class="concert-info">
+	      	<h2>Iggy Azalea</h2>
+	        <h4>'Great Escape' Tour</h4>
+		  </div>
        </div>
         <div class="col-md-4">
-          <img src="img/brandon-flowers.png" width="300px">
-          <h2>Brandon Flowers</h2>
-          <h4>with Temper Trap</h4>
+          <img src="img/brandon-flowers.png">
+          <div class="date-info">
+          	<h4>August 30, 2015<span style="float:right;">Saturday</span</h4>
+          </div>
+          <div class="concert-info">
+	      	<h2>Brandon Flowers</h2>
+	      	<h4>with Temper Trap</h4>
+          </div>
         </div>
       </div>
-
-      <hr>
 
       <footer>
         
       </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    </div> <!-- /container -->        
+    	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
