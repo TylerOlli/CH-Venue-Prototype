@@ -181,7 +181,46 @@ img {
     font-style: italic;
 }
 
+.newsletter-background {
+  background: url(../img/newsletter-background.png) no-repeat center center; 
+  max-width:100%;
+  height:400px;
+}
 
+.newsletter-inner {
+	text-align: center;
+	color: white;
+	background: rgba(0, 0, 0, 0.8);
+	height: 200px;
+	width: 600px;
+	padding-top: 20px;
+	position: absolute;  
+	top: 0;  
+	bottom: 0;  
+	left: 0;  
+	right: 0;  
+	margin: auto;
+}
+
+.newsletter-heading {
+	text-transform: uppercase;
+}
+
+.newsletter-text {
+	color: #de53f3;
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+.btn-lg {
+	background: rgba(0, 0, 0, 0.8);
+	text-transform: uppercase;
+	font-size: 12px;
+	width: 200px;
+	border-color: white;
+}
 
 
 
