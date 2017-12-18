@@ -222,7 +222,83 @@ img {
 	border-color: white;
 }
 
+.white-background {
+	background-color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 
+.widget-heading {
+	text-transform: uppercase;
+}
+
+.widget-subheading {
+	color: #de53f3;
+	text-transform: none;
+	font-style: italic;
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+.widget-header {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+.address-heading {
+	text-transform: uppercase;
+}
+
+.address-subheading {
+	padding-left: 20px;
+	font-size: 15px;
+	text-transform: none;
+}
+
+.social-header {
+	background-color: black;
+	color: white;
+	padding: 10px;
+	height: 100%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.current-social {
+	background-color: #de53f3;
+}
+
+.social-text {
+	padding-right: 15px;
+}
+
+.twitter-widget-tweets {
+	margin-top: 90px;
+	padding: 10px;
+	background-color: #e5e5e5;
+	height: 428px;
+	margin-bottom: 50px;
+}
+
+.recent-tweets {
+	background-color: white;
+	margin: 5px;
+}
+
+blockquote {
+    border-left: none;
+}
+
+.fa-pink {
+	color: #de53f3;
+}
+
+.float-right {
+	float: right;
+	padding-right: 10px;
+}
 
 
 
