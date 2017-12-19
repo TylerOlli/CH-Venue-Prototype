@@ -190,7 +190,7 @@ img {
 	color: white;
 	background: rgba(0, 0, 0, 0.8);
 	height: 200px;
-	width: 600px;
+	width: 100%;
 	padding-top: 20px;
 	position: absolute;  
 	top: 0;  
@@ -350,6 +350,17 @@ blockquote {
 	.concert-info {
  	display: none;
 	}
+
+	#div2 {
+	float: right;
+	}
+
+
+
+} 
+
+@media (min-width:768px){
+
 
 
 } 
