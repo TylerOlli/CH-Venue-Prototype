@@ -1,5 +1,3 @@
-
-
 /* ==========================================================================
   Custom styles
    ========================================================================== */
@@ -285,6 +283,7 @@ img {
 .recent-tweets {
 	background-color: white;
 	margin: 5px;
+	overflow-wrap: break-word
 }
 
 blockquote {
@@ -300,10 +299,60 @@ blockquote {
 	padding-right: 10px;
 }
 
+.span-float-right {
+	float: right;
+}
+
+.buy-tickets {
+	display: none;
+}
 
 
+@media (max-width:767px){
+
+	body {
+		overflow-x: hidden;
+	}
+
+	img {
+		width: 200px;
+		padding: 10px;
+	}
+
+	.event-div {
+	background-color: white;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	}
+
+	.event-container {
+	margin: 15px;
+	}
+
+	.tickets-div {
+	margin-top: -20px;
+	max-width:100%;
+	height: 50px;
+    background-color: #de53f3;
+	}
+
+	.buy-tickets {
+	display: inherit;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	text-transform: uppercase;
+
+	}
+
+	.concert-info {
+ 	display: none;
+	}
 
 
+} 
 
 
 
