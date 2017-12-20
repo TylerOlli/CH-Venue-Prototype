@@ -351,7 +351,8 @@ blockquote {
  	display: none;
 	}
 
-	.div2 {
+
+	.small-div {
 	float: right;
 	}
 
@@ -361,7 +362,8 @@ blockquote {
 
 @media (min-width:768px){
 
-	.div2 {
+
+	.small-div {
 	display: none;
 	}
 

@@ -1,10 +1,12 @@
 function change(){
 
 	if($(window).width() <= 768){
-  		$('.div2').html($('.div1').html());
+  		$('.small-div-1').html($('.large-div-1').html());
+  		$('.small-div-2').html($('.large-div-2').html());
 		}
 	else if (width > 769) {
-   		$('.div1').html($('.div2').html());
+   		$('.large-div-1').html($('.small-div-1').html());
+   		$('.large-div-2').html($('.small-div-2').html());
  		}
 
 }
