@@ -303,6 +303,8 @@ img {
 
 .tweet-info a {
 	color: white;
+	font-size: 14px;
+	text-transform: uppercase;
 }
 
 .tweet-icons {
@@ -347,12 +349,21 @@ blockquote {
 	.youtube iframe {
 	width: 400px;
 	}
+
+	.tweet-info a {
+	font-size: 12px;
+	}
+
+	.tweet-info i {
+	font-size: 12px;
+	}
 }
 
 @media (max-width:990px){
 	.youtube iframe {
 	width: 100%;
 	}
+
 }
 
 
