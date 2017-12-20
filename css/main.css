@@ -177,6 +177,7 @@ img {
 
 .concert-info h4 {
     font-style: italic;
+    font-family: 'Merriweather', serif;
 }
 
 .newsletter-background {
@@ -315,7 +316,8 @@ blockquote {
 	}
 
 	img {
-		width: 200px;
+		max-width:50%;
+    	max-height:50%;
 		padding: 10px;
 	}
 
@@ -354,6 +356,9 @@ blockquote {
 
 	.small-div {
 	display: inline-block;
+	max-width:50%;
+	max-height:50%;
+    word-wrap: break-word;
 	}
 
 	.small-div h2 {
@@ -363,6 +368,15 @@ blockquote {
 
 	.small-div h4 {
 	font-style: italic;
+	font-family: 'Merriweather', serif;
+	}
+
+	i.dots {
+	display: none;
+	}
+
+	i.hamburger {
+	display: none;
 	}
 
 
@@ -377,6 +391,13 @@ blockquote {
 	}
 
 } 
+
+@media (max-width:400px){
+	.small-div {
+	margin-top: -10px;
+	}
+
+}
 
 
 
