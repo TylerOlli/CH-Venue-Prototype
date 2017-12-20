@@ -324,7 +324,7 @@ blockquote {
 	}
 }
 
-@media (max-width:980px){
+@media (max-width:990px){
 	.youtube iframe {
 	width: 100%;
 	}
