@@ -319,6 +319,18 @@ blockquote {
 	width: 50%;
 }
 
+.event-div {
+    position: relative;
+}
+
+.myIframe {
+	float: right;
+    position: absolute;
+    top: 0;
+    width: 40%;
+    height: 70%;
+}
+
 
 @media (max-width:767px){
 
