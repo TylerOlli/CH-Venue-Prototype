@@ -114,12 +114,16 @@ i.hamburger {
 
 .brand-container {
 	height: 80px;
-	background-color: #3a3a3a;
 	color: white;
 	position: absolute;
 	top: 25px;
 	padding: 20px;
+	overflow: hidden;
+	background-color: #3a3a3a;
+    background-image: -webkit-linear-gradient(30deg, #2e2e2e 50%, #3a3a3a 50%);
 }
+
+
 
 .navbar-brand {
 	margin-top: -5px;
@@ -400,6 +404,10 @@ blockquote {
 	}
 
 	i.hamburger {
+	display: none;
+	}
+
+	button {
 	display: none;
 	}
 
