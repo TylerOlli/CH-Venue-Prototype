@@ -353,7 +353,16 @@ blockquote {
 
 
 	.small-div {
-	float: right;
+	display: inline-block;
+	}
+
+	.small-div h2 {
+	color: #de53f3;
+	text-transform: uppercase;
+	}
+
+	.small-div h4 {
+	font-style: italic;
 	}
 
 
