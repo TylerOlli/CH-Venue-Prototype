@@ -11,6 +11,10 @@ body {
 	font-family: 'Oswald', sans-serif;
 }
 
+a {
+	color: #de53f3;
+}
+
 .navbar-header {
 	height: 80px;
 }
@@ -270,21 +274,23 @@ img {
 }
 
 .social-text {
-	padding-right: 15px;
+	
 }
 
 .twitter-widget-tweets {
 	margin-top: 90px;
 	padding: 10px;
 	background-color: #e5e5e5;
-	height: 428px;
+    height: 430px;
 	margin-bottom: 50px;
 }
 
 .recent-tweets {
 	background-color: white;
-	margin: 5px;
-	overflow-wrap: break-word
+	overflow-wrap: break-word;
+	border-style: solid;
+    border-width: 5px;
+	border-color: #e5e5e5;
 }
 
 blockquote {
@@ -313,6 +319,8 @@ blockquote {
 
 	body {
 		overflow-x: hidden;
+		padding-top: 60px;
+		padding-bottom: 10px;
 	}
 
 	img {
@@ -379,6 +387,31 @@ blockquote {
 	display: none;
 	}
 
+	.brand-container {
+	top: 0;
+	}
+
+	hr {
+	display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid black;
+    margin: 0;
+    padding: 0; 
+	}
+
+	.upcoming-events {
+	text-align: center;
+	}
+
+	.twitter-widget-tweets {
+    max-height:100%;
+	}
+
+	.hidden-social-text {
+	display: none;
+	}
+
 
 
 } 
@@ -395,6 +428,10 @@ blockquote {
 @media (max-width:400px){
 	.small-div {
 	margin-top: -10px;
+	}
+
+	.get-directions {
+	margin-top: 200px;
 	}
 
 }
