@@ -34,12 +34,12 @@ function change1(){
 setInterval(change, 10);
 
 
-var url1 = "https://www.youtube.com/embed/zXtsGAkyeIo"
-var url2 = "https://www.youtube.com/embed/taViGR5VT1U"
-var url3 = "https://www.youtube.com/embed/QcIy9NiNbmo"
-var url4 = "https://www.youtube.com/embed/HaMq2nn5ac0"
-var url5 = "https://www.youtube.com/embed/O-zpOMYRi0w"
-var url6 = "https://www.youtube.com/embed/vX5fAb76r-U"
+var url1 = "https://www.youtube.com/embed/s616v2pSWDU"
+var url2 = "https://www.youtube.com/embed/x8KatUCVRNw"
+var url3 = "https://www.youtube.com/embed/XiIShINrftE"
+var url4 = "https://www.youtube.com/embed/Xb9pwfP2Z4E"
+var url5 = "https://www.youtube.com/embed/RzI9VQUHJkU"
+var url6 = "https://www.youtube.com/embed/dSZ3WlFPGME"
 
 
 $(function(){
