@@ -118,7 +118,6 @@ i.hamburger {
 	position: absolute;
 	top: 25px;
 	padding: 20px;
-	overflow: hidden;
 	background-color: #3a3a3a;
     background-image: -webkit-linear-gradient(30deg, #2e2e2e 50%, #3a3a3a 50%);
 }
@@ -275,6 +274,7 @@ img {
 
 .current-social {
 	background-color: #de53f3;
+    background-image: -webkit-linear-gradient(75deg, #df53f4 50%, #d345e9 50%);
 }
 
 .twitter-widget-tweets {
