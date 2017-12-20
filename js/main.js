@@ -53,22 +53,22 @@ $(function(){
     $('.hamburger-button').click(function() {
     $(".event-div").removeClass("col-md-4 col-sm-6");
 
-    $('.youtube1').prepend('<iframe class="myIframe1" width="560" height="315" style="float: right; top:0;" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>');
+    $('.youtube1').prepend('<iframe class="myIframe1" width="560" height="315" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>');
 	$('.myIframe1').attr('src', url1)
 
-	$('.youtube2').prepend('<iframe class="myIframe2" width="560" height="315" style="float: right; top:0;" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>');
+	$('.youtube2').prepend('<iframe class="myIframe2" width="560" height="315" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>');
 	$('.myIframe2').attr('src', url2)
 
-	$('.youtube3').prepend('<iframe class="myIframe3" width="560" height="315" style="float: right; top:0;" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>');
+	$('.youtube3').prepend('<iframe class="myIframe3" width="560" height="315" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>');
 	$('.myIframe3').attr('src', url3)
 
-	$('.youtube4').prepend('<iframe class="myIframe4" width="560" height="315" style="float: right; top:0;" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>');
+	$('.youtube4').prepend('<iframe class="myIframe4" width="560" height="315" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>');
 	$('.myIframe4').attr('src', url4)
 
-	$('.youtube5').prepend('<iframe class="myIframe5" width="560" height="315" style="float: right; top:0;" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>');
+	$('.youtube5').prepend('<iframe class="myIframe5" width="560" height="315" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>');
 	$('.myIframe5').attr('src', url5)
 
-	$('.youtube6').prepend('<iframe class="myIframe6" width="560" height="315" style="float: right; top:0;" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>');
+	$('.youtube6').prepend('<iframe class="myIframe6" width="560" height="315" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>');
 	$('.myIframe6').attr('src', url6)
 
 

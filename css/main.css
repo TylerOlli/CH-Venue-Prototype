@@ -274,7 +274,7 @@ img {
 }
 
 .social-text {
-	
+
 }
 
 .twitter-widget-tweets {
@@ -312,6 +312,11 @@ blockquote {
 
 .buy-tickets {
 	display: none;
+}
+
+.youtube {
+	float: right;
+	width: 50%;
 }
 
 
@@ -412,7 +417,10 @@ blockquote {
 	display: none;
 	}
 
-
+	iframe {
+	display: none;
+	}
+	
 
 } 
 
@@ -435,6 +443,4 @@ blockquote {
 	}
 
 }
-
-
 
