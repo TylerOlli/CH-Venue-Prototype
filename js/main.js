@@ -34,12 +34,6 @@ function change1(){
 setInterval(change, 10);
 
 
-var url1 = "https://www.youtube.com/embed/s616v2pSWDU"
-var url2 = "https://www.youtube.com/embed/x8KatUCVRNw"
-var url3 = "https://www.youtube.com/embed/XiIShINrftE"
-var url4 = "https://www.youtube.com/embed/Xb9pwfP2Z4E"
-var url5 = "https://www.youtube.com/embed/RzI9VQUHJkU"
-var url6 = "https://www.youtube.com/embed/dSZ3WlFPGME"
 
 
 $(function(){
