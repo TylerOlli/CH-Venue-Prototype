@@ -413,6 +413,14 @@ blockquote {
     position: relative;
 }
 
+.hide-tweets {
+	display: none;
+}
+
+.show-tweets {
+	display: block;
+}
+
 @media (max-width:1200px){
 	.youtube iframe {
 	width: 400px;

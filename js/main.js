@@ -68,3 +68,26 @@ $(function(){
 
     });
 });
+
+$(".test2, .test3").addClass("hide-tweets");
+
+$(function(){
+	$(document).on('click', '.angle-left-button', function(){
+        $(".test1, .test2").addClass("hide-tweets");
+        $(".test3").removeClass("hide-tweets");
+    });
+});
+
+$(function(){
+	$(document).on('click', '.angle-up-button', function(){
+        $(".test2, .test3").addClass("hide-tweets");
+        $(".test1").removeClass("hide-tweets");
+    });
+});
+
+$(function(){
+	$(document).on('click', '.angle-right-button', function(){
+        $(".test1, .test3").addClass("hide-tweets");
+        $(".test2").removeClass("hide-tweets");
+    });
+});
