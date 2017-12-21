@@ -280,10 +280,10 @@ img {
 }
 
 .twitter-widget-tweets {
-	margin-top: 90px;
+	margin-top: 70px;
 	padding: 10px;
 	background-color: #e5e5e5;
-    height: 430px;
+    height: 450px;
 	margin-bottom: 50px;
 }
 
@@ -391,7 +391,7 @@ blockquote {
 	}
 
 	.twitter-widget-tweets {
-	height: 450px;
+	height: 469px;
 	}
 
 	.social-text {
@@ -518,6 +518,11 @@ blockquote {
 	}
 
 
+	.span-float-right {
+	margin-right: 0px;
+	}
+
+
 }
 	
 
@@ -538,7 +543,7 @@ blockquote {
 	}
 
 	.get-directions {
-	margin-top: 200px;
+	padding-bottom: 20px;
 	}
 
 }
