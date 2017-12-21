@@ -20,18 +20,18 @@ a {
 }
 
 .social-media-container-outer {
-	background-color: white;
+	background-color: #ffffff;
 	width: 100%;
 	
 }
 
 .social-media-container-inner {
-	background-color: white;
+	background-color: #ffffff;
 	
 }
 
 #social-media-nav {
-	background-color: white;
+	background-color: #ffffff;
 	height: 40px;
 	margin-top: -5px;
 	margin-bottom: -20px;
@@ -50,7 +50,7 @@ a {
 
 .login-button {
 	background-color: #de53f3;
-	color: white;
+	color: #ffffff;
 	font-size: 12px;
 	text-transform: uppercase;
 	height: 45px;
@@ -108,13 +108,13 @@ i.hamburger {
 	text-transform: uppercase;
 }
 
-.white-text {
-	color: white;
+.#ffffff-text {
+	color: #ffffff;
 }
 
 .brand-container {
 	height: 80px;
-	color: white;
+	color: #ffffff;
 	position: absolute;
 	top: 25px;
 	padding: 20px;
@@ -128,14 +128,14 @@ i.hamburger {
 
 #first-brand {
 	font-size: 40px;
-	color: white;
+	color: #ffffff;
 	text-transform: uppercase;
 }
 
 #second-brand {
 	font-size: 20px;
 	padding-left: 5px;
-	color: white;
+	color: #ffffff;
 	text-transform: uppercase;
 	font-style: italic;
 }
@@ -144,7 +144,7 @@ hr {
 	display: block;
     height: 2px;
     border: 0;
-    border-top: 2px solid black;
+    border-top: 2px solid #000000;
     margin: 2em 0;
     padding: 0; 
 }
@@ -155,8 +155,8 @@ img {
 }
 
 .date-info {
-	background-color: black;
-	color: white;
+	background-color: #000000;
+	color: #ffffff;
 	margin-top: -10px;
 }
 
@@ -168,7 +168,7 @@ img {
 
 .concert-info {
 	height: 100px;
-	background-color: white;
+	background-color: #ffffff;
 	text-align: center;
 	margin-top: -20px;
 	margin-bottom: 50px;
@@ -193,7 +193,7 @@ img {
 
 .newsletter-inner {
 	text-align: center;
-	color: white;
+	color: #ffffff;
 	background: rgba(0, 0, 0, 0.8);
 	height: 200px;
 	width: 100%;
@@ -223,11 +223,11 @@ img {
 	text-transform: uppercase;
 	font-size: 12px;
 	width: 200px;
-	border-color: white;
+	border-color: #ffffff;
 }
 
 .white-background {
-	background-color: white;
+	background-color: #ffffff;
 	padding-left: 20px;
 	padding-right: 20px;
 }
@@ -245,8 +245,8 @@ img {
 }
 
 .widget-header {
-	background-color: black;
-	color: white;
+	background-color: #000000;
+	color: #ffffff;
 	padding: 10px;
 	text-align: center;
 }
@@ -262,8 +262,8 @@ img {
 }
 
 .social-header {
-	background-color: black;
-	color: white;
+	background-color: #000000;
+	color: #ffffff;
 	padding: 10px;
 	height: 100%;
 	text-align: center;
@@ -288,10 +288,10 @@ img {
 }
 
 .recent-tweets {
-	background-color: white;
+	background-color: #ffffff;
 	overflow-wrap: break-word;
 	border-style: solid;
-    border-width: 5px;
+    border-width: 10px;
 	border-color: #e5e5e5;
 	font-family: 'Lato', sans-serif;
 }
@@ -306,14 +306,14 @@ img {
 }
 
 .tweet-info a {
-	color: white;
+	color: #ffffff;
 	font-size: 14px;
 	text-transform: uppercase;
 }
 
 .tweet-icons {
 	float: right;
-	color: white;
+	color: #ffffff;
 }
 
 .tweet-icons i {
@@ -419,7 +419,7 @@ blockquote {
 	}
 
 	.event-div {
-	background-color: white;
+	background-color: #ffffff;
 	padding-left: 0px;
 	padding-right: 0px;
 	margin-top: 20px;
@@ -440,7 +440,7 @@ blockquote {
 	.buy-tickets {
 	display: inherit;
 	text-align: center;
-	color: white;
+	color: #ffffff;
 	padding: 10px;
 	text-transform: uppercase;
 
@@ -488,7 +488,7 @@ blockquote {
 	display: block;
     height: 2px;
     border: 0;
-    border-top: 2px solid black;
+    border-top: 2px solid #000000;
     margin: 0;
     padding: 0; 
 	}
