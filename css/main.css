@@ -380,6 +380,11 @@ blockquote {
 	color: #de53f3;
 }
 
+i.fa-pink {
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
 .float-right {
 	float: right;
 	padding-right: 10px;
