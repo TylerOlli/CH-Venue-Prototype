@@ -64,8 +64,6 @@ $(function(){
 
 	$('.youtube6').prepend('<iframe class="myiFrame myIframe6" width="560" height="315" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>');
 	$('.myIframe6').attr('src', url6)
-
-
     });
 });
 
@@ -73,19 +71,21 @@ $(".test2, .test3").addClass("hide-tweets");
 
 $(function(){
 	$(document).on('click', '.angle-left-button', function(){
-        $(".test1, .test2").addClass("hide-tweets");
-        $(".test3").removeClass("hide-tweets");
+        $(".test1, .test3").addClass("hide-tweets");
+        $(".test2").removeClass("hide-tweets");
         $(".circle1").removeClass("fa-circle-o");
         $(".circle2").removeClass("fa-circle");
         $(".circle1").addClass("fa-circle");
         $(".circle2").addClass("fa-circle-o");
+        $(".circle3").removeClass("fa-circle");
+        $(".circle3").addClass("fa-circle-o");
 
     });
 });
 
 $(function(){
 	$(document).on('click', '.angle-up-button', function(){
-        $(".test2, .test3").addClass("hide-tweets");
+        $(".test3, .test2").addClass("hide-tweets");
         $(".test1").removeClass("hide-tweets");
         $(".circle2").removeClass("fa-circle-o");
         $(".circle2").addClass("fa-circle");
@@ -98,13 +98,13 @@ $(function(){
 
 $(function(){
 	$(document).on('click', '.angle-right-button', function(){
-        $(".test1, .test3").addClass("hide-tweets");
-        $(".test2").removeClass("hide-tweets");
+        $(".test1, .test2").addClass("hide-tweets");
+        $(".test3").removeClass("hide-tweets");
         $(".circle3").removeClass("fa-circle-o");
         $(".circle3").addClass("fa-circle");
+        $(".circle1").removeClass("fa-circle");
+        $(".circle1").addClass("fa-circle-o");
         $(".circle2").removeClass("fa-circle");
         $(".circle2").addClass("fa-circle-o");
-        
-        
     });
 });
