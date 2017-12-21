@@ -22,12 +22,10 @@ a {
 .social-media-container-outer {
 	background-color: #ffffff;
 	width: 100%;
-	
 }
 
 .social-media-container-inner {
 	background-color: #ffffff;
-	
 }
 
 #social-media-nav {
@@ -157,6 +155,7 @@ i.hamburger {
 	font-size: 40px;
 	color: #ffffff;
 	text-transform: uppercase;
+	letter-spacing: 4px;
 }
 
 #second-brand {
@@ -165,6 +164,7 @@ i.hamburger {
 	color: #ffffff;
 	text-transform: uppercase;
 	font-style: italic;
+	letter-spacing: 4px;
 }
 
 hr {
@@ -307,7 +307,6 @@ img {
 	background-color: #de53f3;
 }
 
-
 .current-social {
 	background-color: #de53f3;
     background-image: -webkit-linear-gradient(75deg, #df53f4 50%, #d345e9 50%);
@@ -358,7 +357,6 @@ img {
 	padding-left: 5px;
 }
 
-
 .fa-reply:hover {
 	color: #0000FF;
 }
@@ -408,7 +406,6 @@ i.fa-pink1 {
 	-webkit-clip-path: polygon(14% 0, 100% 0, 100% 100%, 31% 100%);
 	clip-path: polygon(14% 0, 100% 0, 100% 100%, 31% 100%);
 }
-
 
 .buy-tickets {
 	display: none;
@@ -469,9 +466,9 @@ i.fa-pink1 {
 
 	.social-text i {
 	display: none;
-
 	}
 
+}
 
 @media (max-width:767px){
 
@@ -516,7 +513,6 @@ i.fa-pink1 {
 	color: #ffffff;
 	padding: 10px;
 	text-transform: uppercase;
-
 	}
 
 	.buy-tickets:hover {
@@ -526,7 +522,6 @@ i.fa-pink1 {
 	.concert-info {
  	display: none;
 	}
-
 
 	.small-div {
 	display: inline-block;
@@ -594,20 +589,22 @@ i.fa-pink1 {
 	display: inherit;
 	}
 
-
 	.span-float-right {
 	margin-right: 0px;
 	}
 
+	.newsletter-inner {
+	height: 250px;
+	}
+
+	.btn-lg {	
+	width: 100px;
+
+}
 
 }
 	
-
-} 
-
 @media (min-width:768px){
-
-
 	.small-div {
 	display: none;
 	}
@@ -622,6 +619,4 @@ i.fa-pink1 {
 	.get-directions {
 	padding-bottom: 20px;
 	}
-
 }
-
