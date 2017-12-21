@@ -44,8 +44,17 @@ a {
 	padding-right: 20px;
 }
 
+#social-media-text:hover {
+	color: #000000;
+}
+
 .login-form {
 	margin-bottom: 7px;
+}
+
+.login-form i:hover {
+	color: #de53f3;
+
 }
 
 .login-button {
@@ -61,6 +70,11 @@ a {
 	margin-top: -5px;
 	margin-bottom: -15px;
 	border: none;
+}
+
+.login-button:hover {
+	background-color: #e5e5e5;
+	color: #de53f3;
 }
 
 .form-control {
@@ -128,6 +142,11 @@ i.hamburger {
 	padding: 20px;
 	background-color: #3a3a3a;
     background-image: -webkit-linear-gradient(30deg, #2e2e2e 50%, #3a3a3a 50%);
+}
+
+.brand-container:hover {
+	background-color: #3a3a3a;
+    background-image: -webkit-linear-gradient(30deg, #3a3a3a 50%, #2e2e2e 50%);
 }
 
 .navbar-brand {
@@ -284,6 +303,11 @@ img {
 	text-transform: uppercase;
 }
 
+.social-header:hover {
+	background-color: #de53f3;
+}
+
+
 .current-social {
 	background-color: #de53f3;
     background-image: -webkit-linear-gradient(75deg, #df53f4 50%, #d345e9 50%);
@@ -333,6 +357,20 @@ img {
 .tweet-icons i {
 	padding-left: 5px;
 }
+
+
+.fa-reply:hover {
+	color: #0000FF;
+}
+
+.fa-star:hover {
+	color: #FFFF00;
+}
+
+.fa-retweet:hover {
+	color: #00B200;
+}
+
 
 blockquote {
     border-left: none;
@@ -451,6 +489,10 @@ blockquote {
     background-color: #de53f3;
 	}
 
+	.tickets-div:hover {
+    background-color: #2e2e2e;
+	}
+
 	.buy-tickets {
 	display: inherit;
 	text-align: center;
@@ -458,6 +500,10 @@ blockquote {
 	padding: 10px;
 	text-transform: uppercase;
 
+	}
+
+	.buy-tickets:hover {
+	color: #de53f3;
 	}
 
 	.concert-info {
