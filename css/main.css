@@ -108,8 +108,16 @@ i.hamburger {
 	text-transform: uppercase;
 }
 
-.#ffffff-text {
+.nav-link:hover {
+    text-decoration: none;
+}
+
+.white-text {
 	color: #ffffff;
+}
+
+.white-text:hover {
+	color: #de53f3;
 }
 
 .brand-container {
@@ -196,7 +204,7 @@ img {
 	color: #ffffff;
 	background: rgba(0, 0, 0, 0.8);
 	height: 200px;
-	width: 100%;
+	width: 60%;
 	padding-top: 20px;
 	position: absolute;  
 	top: 0;  
@@ -214,7 +222,7 @@ img {
 	color: #de53f3;
 	font-family: 'Merriweather', serif;
 	font-style: italic;
-	font-size: 15px;
+	font-size: 14px;
 	padding-bottom: 10px;
 }
 
@@ -224,6 +232,12 @@ img {
 	font-size: 12px;
 	width: 200px;
 	border-color: #ffffff;
+	border-radius: 0px;
+}
+
+.btn-lg:hover {
+	background-color: #de53f3;;
+	color: #ffffff;
 }
 
 .white-background {
